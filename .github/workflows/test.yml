@@ -12,7 +12,7 @@ jobs:
   eslint:
     name: CI, Lint
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: Checkout branch
         uses: actions/checkout@v2
 
