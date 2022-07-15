@@ -10,6 +10,7 @@ on:
 
 jobs:
   eslint:
+    name: CI, Lint
     runs-on: ubuntu-latest
     setps:
       - name: Checkout branch
