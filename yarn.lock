@@ -1231,10 +1231,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-bayathy@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/eslint-config-bayathy/-/eslint-config-bayathy-1.0.8.tgz#777feb742850f09ed0eddd3836ace267c01e55f8"
-  integrity sha512-X/1WFy3zD6YNdYl5EYjrK1dJVV684we+AvdkTKv4ri8hRJcogsnjtqH/BlTBwIV6LKIhrQq65YWN3UvJOIrOKg==
+eslint-config-bayathy@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/eslint-config-bayathy/-/eslint-config-bayathy-1.0.10.tgz#d3d295222e4a6b099d1247595b05380de486679a"
+  integrity sha512-X6DcgQ5BU8vtaEChbxkvfdWl1FO9SALugbFzq/139Q9t3NZ94nOD3WoxmRKGH87dke1U7tWgznx1VMeJjcphOg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.30.6"
     "@typescript-eslint/parser" "^5.30.6"
