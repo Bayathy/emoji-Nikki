@@ -33,7 +33,7 @@ jobs:
         run: yarn install --frozen-lockfile --ignore-engines
 
       - name: Lint types and code
-        run: yarn lint:fix
+        run: yarn fix
 
       - name: auto commit
         uses: stefanzweifel/git-auto-commit-action@v4
