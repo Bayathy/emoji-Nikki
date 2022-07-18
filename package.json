@@ -7,7 +7,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "fix": "eslint --fix src/**/* && prettier -w src/**/*",
-    "lint": "eslint src/**/* && prettier src/**/*"
+    "lint": "eslint src/**/* && prettier src/**/*",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
