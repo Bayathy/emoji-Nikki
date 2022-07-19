@@ -2,9 +2,8 @@ import React from 'react'
 import tw from 'twin.macro'
 
 type Box = {
-   children: React.ReactNode
    limeted?: boolean
-} & React.ComponentProps<'div'>
+} & Component<'div'>
 
 export const Box: React.FC<Box> = ({ children, limeted }) => {
    return (

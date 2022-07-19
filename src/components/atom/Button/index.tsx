@@ -3,9 +3,8 @@ import React from 'react'
 import tw from 'twin.macro'
 
 type Button = {
-   children?: string
    css?: SerializedStyles
-} & React.ComponentProps<'button'>
+} & Component<'button'>
 
 export const Button: React.FC<Button> = ({ children, ...rest }) => {
    return (
