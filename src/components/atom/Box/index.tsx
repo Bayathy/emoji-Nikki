@@ -1,19 +1,19 @@
+import { SerializedStyles } from '@emotion/react'
 import React from 'react'
-import tw from 'twin.macro'
+import tw, { TwStyle } from 'twin.macro'
 
 type Box = {
    limeted?: boolean
+   styles: SerializedStyles | TwStyle
 } & Component<'div'>
 
-export const Box: React.FC<Box> = ({ children, limeted, ...rest }) => {
+export const Box: React.FC<Box> = ({ children, limeted, styles }) => {
    return (
       <>
          {limeted ? (
-            <div css={tw`max-w-5xl`} {...rest}>
-               {children}
-            </div>
+            <div css={[tw`max-w-5xl`, styles]}>{children}</div>
          ) : (
-            <div {...rest}>{children}</div>
+            <div css={[tw`max-w-5xl`, styles]}>{children}</div>
          )}
       </>
    )

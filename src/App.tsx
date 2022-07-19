@@ -1,5 +1,6 @@
 import React from 'react'
 import { css, Global } from '@emotion/react'
+import { Main } from './components/page/Main'
 
 export const App: React.FC = () => {
    return (
@@ -11,6 +12,7 @@ export const App: React.FC = () => {
                }
             `}
          />
+         <Main />
       </>
    )
 }
