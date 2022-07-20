@@ -4,16 +4,16 @@ import tw, { TwStyle } from 'twin.macro'
 
 type Box = {
    limeted?: boolean
-   styles: SerializedStyles | TwStyle
+   styles?: SerializedStyles | TwStyle
 } & Component<'div'>
 
 export const Box: React.FC<Box> = ({ children, limeted, styles }) => {
    return (
       <>
          {limeted ? (
-            <div css={[tw`max-w-5xl`, styles]}>{children}</div>
+            <div css={[tw`max-w-5xl m-auto`, styles]}>{children}</div>
          ) : (
-            <div css={[tw`max-w-5xl`, styles]}>{children}</div>
+            <div css={styles}>{children}</div>
          )}
       </>
    )

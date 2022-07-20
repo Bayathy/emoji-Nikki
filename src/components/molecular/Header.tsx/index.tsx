@@ -6,10 +6,14 @@ export const Header: React.FC = () => {
    return (
       <Box
          styles={tw`
+            w-screen
             bg-extra
+            h-16
          `}
       >
-         asd
+         <Box limeted styles={tw`w-full`}>
+            adasf
+         </Box>
       </Box>
    )
 }
