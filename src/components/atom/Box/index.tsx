@@ -7,13 +7,13 @@ type Box = {
    styles?: SerializedStyles | TwStyle
 } & Component<'div'>
 
-export const Box: React.FC<Box> = ({ children, limeted, styles }) => {
+export const Box: React.FC<Box> = ({ children, limeted, styles , ...rest}) => {
    return (
       <>
          {limeted ? (
-            <div css={[tw`max-w-5xl m-auto`, styles]}>{children}</div>
+            <div css={[tw`max-w-5xl m-auto`, styles]} {...rest}>{children}</div>
          ) : (
-            <div css={styles}>{children}</div>
+            <div css={styles} {...rest}>{children}</div>
          )}
       </>
    )

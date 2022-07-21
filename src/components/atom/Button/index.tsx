@@ -3,12 +3,12 @@ import React from 'react'
 import tw from 'twin.macro'
 
 type Button = {
-   css?: SerializedStyles
+   styles?: SerializedStyles
 } & Component<'button'>
 
-export const Button: React.FC<Button> = ({ children, ...rest }) => {
+export const Button: React.FC<Button> = ({ children, styles, ...rest }) => {
    return (
-      <button {...rest} css={tw`bg-extra rounded-2xl px-8`}>
+      <button {...rest} css={[tw`bg-extra rounded-2xl px-8`, styles]}>
          {children}
       </button>
    )
