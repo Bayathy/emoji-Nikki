@@ -7,13 +7,11 @@ export const Header: React.FC = () => {
       <Box
          styles={tw`
             w-screen
-            bg-extra
+            bg-primary
             h-16
          `}
       >
-         <Box limeted styles={tw`w-full`}>
-            adasf
-         </Box>
+         <Box limeted styles={tw`w-full`}></Box>
       </Box>
    )
 }

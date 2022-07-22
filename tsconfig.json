@@ -20,5 +20,5 @@
   "include": [
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/molecular/Header"  ],
 }
