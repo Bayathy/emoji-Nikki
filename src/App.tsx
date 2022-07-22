@@ -9,6 +9,7 @@ export const App: React.FC = () => {
             styles={css`
                body {
                   background-color: #dcdcdc;
+                  box-sizing: border-box;
                }
             `}
          />
