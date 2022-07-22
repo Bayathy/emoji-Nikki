@@ -1461,6 +1461,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@iconify-icon/react@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@iconify-icon/react/-/react-1.0.0-beta.2.tgz#97bd01b7d29b272a7320b4e78be3a84b99c17752"
+  integrity sha512-+Jtw+7w4vcNlpZ3BOlpmjwaf4R/lZxL5Eky4C7YEGUZcbAkLbovkiAoM+GMrKZx/Qr5y1NCIGXFhonx5o+Oy2g==
+  dependencies:
+    iconify-icon "^1.0.0-beta.2"
+
+"@iconify/types@^2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0-beta.1.tgz#0e5f7046336c50ecd7b956157ded03722f02d1ed"
+  integrity sha512-M8I8ReRIEj4oIddjUjw3CoKv1wfSX2F3CIDjn3RwxQSOz2nG7/s5r5BJxRHwr+t7p0RPkbyiR640/FQPDZjeYg==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -6763,6 +6775,13 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+
+iconify-icon@^1.0.0-beta.2:
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/iconify-icon/-/iconify-icon-1.0.0-beta.2.tgz#1cccd0fbacf55b379575b04c2dc651f98a0d1e44"
+  integrity sha512-a1MgokCwYqGLBzhsh7xceMEZ2r7CmT3Bh9Ce+23ww5/60fAl7ZvWm8jt98sEXXvGoAak/Qw+0cVpBR1QHAeQoA==
+  dependencies:
+    "@iconify/types" "^2.0.0-beta.1"
 
 iconv-lite@0.4.24:
   version "0.4.24"
