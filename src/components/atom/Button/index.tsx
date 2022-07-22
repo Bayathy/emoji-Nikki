@@ -8,7 +8,7 @@ export const Button: React.FC<Component<'button'>> = ({
    ...rest
 }) => {
    return (
-      <button {...rest} css={[tw`bg-extra rounded-2xl px-8`, styles]}>
+      <button {...rest} css={[tw`rounded-2xl px-8`, styles]}>
          {children}
       </button>
    )

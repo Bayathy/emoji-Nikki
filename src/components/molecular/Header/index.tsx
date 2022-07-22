@@ -2,6 +2,7 @@ import tw from 'twin.macro'
 import React from 'react'
 import { Box } from '../../atom/Box'
 import { Card } from '../../atom/Card'
+import { Button } from '../../atom/Button'
 
 export const Header: React.FC = () => {
    return (
@@ -12,16 +13,19 @@ export const Header: React.FC = () => {
             h-16
          `}
       >
-         <Box limeted styles={tw`w-full h-full flex items-center`}>
+         <Box
+            limeted
+            styles={tw`w-11/12 h-full flex items-center justify-between`}
+         >
             <Card
                styles={tw`
                w-max
                bg-white
-               ml-8
             `}
             >
-               <p css={tw`px-8`}>title</p>
+               <p css={tw`px-8`}>Wedia</p>
             </Card>
+            <Button css={tw`bg-white py-1.5`}>Login</Button>
          </Box>
       </Box>
    )
