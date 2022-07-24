@@ -3,24 +3,24 @@ import tw from 'twin.macro'
 import { Component } from '../../../model/component'
 
 type Button = {
-   type?: 'text' | 'icon'
+   variant: 'text' | 'icon'
 } & Component<'button'>
 
 export const Button: React.FC<Button> = ({
    children,
    styles,
-   type,
+   variant,
    ...rest
 }) => {
    return (
       <>
-         {(type == 'text' || undefined) && (
+         {(variant == 'text' || undefined) && (
             <button {...rest} css={[tw`rounded-2xl px-8`, styles]}>
                {children}
             </button>
          )}
-         {type == 'icon' && (
-            <button {...rest} css={[tw`rounded-2xl px-8`, styles]}>
+         {variant == 'icon' && (
+            <button {...rest} css={[tw`rounded-2xl`, styles]}>
                {children}
             </button>
          )}
