@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
             >
                <p css={tw`px-8`}>Wedia</p>
             </Card>
-            <Button css={tw`bg-white py-1.5`}>
+            <Button variant={'icon'} css={tw`bg-white py-1.5`}>
                <Icon width={'2rem'} icon="tabler:user" />
             </Button>
          </Box>
