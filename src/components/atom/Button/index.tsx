@@ -20,7 +20,7 @@ export const Button: React.FC<Button> = ({
             </button>
          )}
          {variant == 'icon' && (
-            <button {...rest} css={[tw`rounded-2xl`, styles]}>
+            <button {...rest} css={[tw`rounded-full p-2`, styles]}>
                {children}
             </button>
          )}
