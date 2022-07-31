@@ -10,7 +10,7 @@
     "lint": "eslint src/**/* && prettier src/**/*"
   },
   "devDependencies": {
-    "@emotion/babel-plugin-jsx-pragmatic": "0.1.5",
+    "@emotion/babel-plugin-jsx-pragmatic": "0.2.0",
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
